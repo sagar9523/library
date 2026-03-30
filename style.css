@@ -1,0 +1,138 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(245, 245, 245, 0.4);
+    background-image: url("lib.jpg");
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+#side_bar{
+    background-color: lightsalmon;
+    padding:50px;
+    width: 300px;
+    height: 550px;
+    border-radius: 5px;
+    border-color:black;
+    margin:20px;
+    border-style:solid;
+}
+h2{
+font: size 10px;;
+color:darkblue;
+
+}
+input[type=text], input[type=password] ,textarea[type=address]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #f60f0f;
+    box-sizing: border-box;
+    height: 35px;
+    background-color: #6854d8;
+    
+}
+.btn{
+    background-color: rgb(227, 218, 227);
+    color: rgb(67, 19, 157);
+    padding: 6px 20px;
+    margin: 8px 0;
+    border:none;
+    cursor:pointer;
+    width: 100%;
+    height: 35px ;
+    text-align: center;
+    font-size:16px ;
+    
+}
+#main_content1{
+    background: rgba(238, 239, 240, 0.9);
+    padding: 50px;
+    margin:0 auto;
+    width: 33.33%;
+    height: 600px;
+    margin-top: 20px;
+
+}
+.btn:hover{
+    background-color: #e6b680;
+    color: white;
+}
+label{
+    font-weight: bold;
+}
+.navbar-brand{
+    color: rgb(105, 236, 29);
+    font-size: 16px;
+}
+marquee{
+    background-color: blue;
+    color: aliceblue;
+    font-size: 45px;
+    height: 50px;
+}
+
+    #main_content{
+        background: rgba(17, 129, 226, 0.9);
+        padding: 50px;
+        width: 33.33%;
+        height: 500px;
+        margin: 0 auto;
+        margin-top: 25px;
+        
+      
+        
+    
+    }
+    .dropdown-menu{
+        background-color: #a7a8a8;
+    }
+    .table,th,td{
+        border: 5px solid;
+        background-color: rgba(245, 241, 248, 0.9); 
+        color: rgb(10, 10, 10);
+        padding: 8px;
+    }
+    .table,th{
+        background-color: rgb(234, 241, 241);
+        color: black;
+
+    }
+    li a{
+display: block;
+color:white ;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+    }
+    .btn:active {
+        background-color: hsl(110, 100%, 57%);
+        color: white;
+    }
+    .col-md-4{
+        background: rgba(17, 129, 226, 0.9);
+        padding: 12px 20px;
+        margin: 8px 0px;
+        display:block;
+        border: 1px solid #f60f0f;
+        box-sizing: border-box;
+        height: 35px;
+        background-color: #3923b3;
+    }
+    .btn{
+        color: hsl(0, 92%, 54%);
+    }
+    h4{
+        color: #eaedee;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+   
